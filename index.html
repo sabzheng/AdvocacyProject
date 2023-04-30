@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--reference:https://www.aapihatecrimes.org/hate-incidents-->
+  <title>StopTheHate</title> <!-- the content here will only show in the tab and in the metadata about the page -->
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- Part 1: Navbar Starter Code -->
+
+  <div class="navbar">
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#data">DATA</a></li>
+      <li><a href="#impact">IMPACT</a></li>
+      <li><a href="#more">READ MORE</a></li>
+      <li><a href="#petition">PETITION</a></li>
+      <!-- Stretch Challenge: Drop Down -->
+      <!-- Toggle Dark Mode -->
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+    </ul>
+  </div>
+
+
+
+
+
+  <!-- Part 2: Flexbox Layout Stater Code -->
+
+
+  <!--- Headings --->
+  <div class="header-container">
+    <div class="header-item">
+      <h1 id="#title">Stop the Hate!</h1>
+      <h3>Confronting the invisibility of anti-Asian racism</h3>
+      <div class="header-button">
+        <button type="button">Organizations</button>
+        <button type="button">Events</button>
+      </div>
+    </div>
+    <div class="header-item">
+      <img src="img/stopasianhate_mask.jpg" alt="protest" id="header-img" />
+    </div>
+  </div>
+
+
+  <div class="content-container">
+    <!--- About --->
+    <!--- reference: https://en.wikipedia.org/wiki/Stop_AAPI_Hate --->
+    <div class="revealable" id="about">
+      <h2>What is #StopAsianHate?</h2>
+      <p>"Stop Asian Hate is a slogan and name for a series of demonstrations, protests, and rallies against violence
+        targeting Asians, Asian Americans, and others of Asian descent. They were held across the United States in 2021
+        in response to racial discrimination against Asian Americans relating to the COVID-19 pandemic."<br>-Wikipedia
+      </p>
+      <!--reference: https://www.nyc.gov/site/cchr/community/stop-asian-hate.page-->
+      <p>"There has been a significant, troubling increase in anti-Asian hate crimes and bias incidents since the start
+        of the pandemic. Beginning in February of 2020, the Commission received a sevenfold increase in reports of
+        anti-Asian harassment, discrimination, and violence. It is crucial to note that hate crimes and bias incidents
+        have been found to be vastly under-reported so these numbers only reflect reported incidents."<br>-NYC Human
+        Rights</p>
+    </div>
+
+    <div class="revealable" id="data">
+      <!--- Data reference:--->
+      <h2>Data about my topic</h2>
+      <img src="img/types.png" width=50% text-align="center" />
+      <h4>According to Stop AAPI Hate data, verbal harassment (63.0%) continues to make up the biggest share of total
+        incidents reported.</h4>
+      <ul>
+        <li>Physical assault (16.2%) comprises the second largest category of total reported incidents followed by the
+          deliberate avoidance of Asian Americans and Pacific Islanders (16.1%).</li>
+        <li>Civil rights violations — e.g., workplace discrimination, refusal of service, being barred from
+          transportation, and
+          housing-related discrimination — account for 11.5% of total incidents.</li>
+        <li>Online harassment makes up 8.6% of total incidents</li>
+      </ul>
+      <img / src="img/funfact.png" width=50%>
+    </div>
+
+    <div class="revealable" id="impact">
+      <!--- Impact --->
+      <h2>Impact of Asian Hate</h2>
+
+      <img src="img/business-failure-stress.avif" alt="business failure stress" width=200px />
+      <!-- reference: Written by ALYCIA CHENG, JONATHAN ONG, PAUL ONG https://knowledge.luskin.ucla.edu/wp-content/uploads/2021/11/v2_full_AA-Biz-Impacts.pdf-->
+      <h3>Business and Career</h3>
+      <p>"Asian American business owners and employees have been experiencing multiple negative impacts amidst the
+        pandemic - including disproportionate financial loss and lower rates of government financial assistance. The
+        negative effects of these multiple challenges have been further compounded by anti-Asian hate targeting both
+        individuals and businesses."<br>-Anti-Asian Racism Business Impacts by Alycia Cheng, Jonathan Ong, Paul Ong
+      </p>
+      <p>Many career opportunities are also restricted against Asians. </p>
+
+      <img src="img/proud.png" alt="harassment" width=300px />
+      <!--https://www.verywellmind.com/mental-health-effects-of-racism-on-asian-communities-5072783-->
+      <h3>Physical and Verbal Threats</h3>
+      <p>During the peak of the pandemic, many Asian Americans experienced racially motivated hate crimes involving
+        physical violence and harassment</p>
+      <p>"According to the STOP AAPI (Asian American Pacific Islander) HATE Reporting Center, content analysis of 1,843
+        incidents yielded the following insights: Virulent animosity towards Chinese Americans, Scapegoating of China
+        for the spread of COVID-19, Anti-immigrant nationalism, Parroting of the term “Chinese virus”, Orientalist and
+        racist depictions of China such as "dirty" and "diseased""</p>
+
+      <img src="img/mentalhealth.jpg" alt="mental health" width=200px />
+      <h3>Mental Health</h3>
+      <!--https://www.verywellmind.com/mental-health-effects-of-racism-on-asian-communities-5072783-->
+      <p>"Hate crimes range from 'microaggressions and verbal harassment to assault and other violent hate crimes.'
+        Victims of hate crimes are more likely to experience symptoms of psychological distress than victims of non-hate
+        crimes. These symptoms include: Anger, Anxiety, Depression, Lower self-esteem, and Post-traumatic
+        stress"<br>-Krystal Jagoo </p>
+
+      <img src="img/aaf.jpg" alt="AAF logo" width=200px />
+      <h3>Asian American Federation (AAF)</h3>
+      <p>"The Asian American Federation is a nonprofit organization working to advance the civic voice of Asian
+        Americans in the New York metropolitan area." <br>-Wikipedia</p>
+
+      <img src="img/stop-aapi-hate.png" alt="Stop AAPI Hate logo" width=200px />
+      <h3>Stop AAPI Hate</h3>
+      <!--reference:https://en.wikipedia.org/wiki/Stop_AAPI_Hate-->
+      <p>"Stop AAPI Hate is a nonprofit organization that runs the Stop AAPI Hate Reporting Center, which tracks
+        incidents of hate and discrimination against Asian Americans and Pacific Islanders (AAPI) in the United States.
+        The organization was formed in 2020 in response to racist attacks on the Asian community as a result of the
+        COVID-19 pandemic. Stop AAPI Hate’s approach is to focus on working to end all forms of structural racism
+        leveled at the communities of color to truly be able to effectively address anti-Asian racism."<br>-Wikipedia
+      </p>
+      <p>"Stop AAPI Hate is the nation's leading coalition documenting and addressing anti-Asian hate and discrimination
+        amid the COVID-19 pandemic." <br>-NYC Human Rights</p>
+
+      <img src="img/believeInOurCity.jpg" alt="I still believe in our city art works" width=350px>
+      <h3>I Still Believe in Our City</h3>
+      <p> " "I Still Believe in Our City" is a public awareness campaign by multidisciplinary artist Amanda
+        Phingbodhipakkiya. The public awareness campaign was developed with the NYC Commission on Human Rights to combat
+        anti-Asian discrimination, harassment, and bias as a result of COVID-19, and launched with the support of the
+        NYC Department of Cultural Affairs. The art featured here is from an upcoming Art Display Case exhibition
+        presented in partnership with the NYC Department of Transportation's Temporary Art Program."<br>-NYC Human
+        Rights</p>
+
+      <h3>The Struggles Of Being An Asian American </h3>
+      <iframe src="https://www.youtube.com/embed/9E0_8KPvOt0" width="560" height="315"></iframe>
+    </div>
+
+    <div class="revealable" id="more">
+      <!--- News --->
+      <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+      <h2>Recent News</h2>
+
+      <a class="article" href="https://www.nytimes.com/live/2021/03/17/us/shooting-atlanta-acworth">
+        <article>
+          <h3>8 Dead in Atlanta Spa Shootings, With Fears of Anti-Asian Bias</h3>
+        </article>
+      </a>
+      <a class="article" href="https://time.com/6157468/asian-americans-abuse-atlanta-spa-shootings-anniversary/">
+        <article>
+          <h3>Impact of the Atlanta Spa Shootings</h3>
+        </article>
+      </a>
+      <a class="article" href="https://www.nyc.gov/site/cchr/community/stop-asian-hate.page#hatecrime">
+        <article>
+          <h3>Stop Asian Hate From NYC Human Rights</h3>
+        </article>
+      </a>
+      <a class="article"
+        href="https://www.justice.gov/opa/pr/readout-department-justice-s-efforts-combat-hate-crimes-against-asian-american-and-pacific">
+        <article>
+          <h3>The Department of Justices's Effort Against Asian Hate Crimes</h3>
+        </article>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="petition revealable" id="petition">
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <!--Reference:https://actionnetwork.org/forms/national-petition-for-unity-asian-americans?source=twitter-->
+        <p>Many of you have already seen or heard about this act of violence, when eight people were killed at three
+          spas in the Atlanta area. Six of the victims were Asian women. They deserve justice and to be known in their
+          life and not just in their death. Just yesterday, a Chinese woman also had to defend herself against a racist
+          attack here in San Francisco. She was attacked along with another 83-year old Vietnamese man. These are just a
+          few of the stories we have heard about. We know that these events are fueled by the same racist, sexist,
+          xenophobic system that leaves our people feeling more unsafe than ever before. We stand in solidarity with
+          victims, survivors, and families who have suffered loss and pain.</p>
+      </div>
+
+      <div class="signatures">
+        <p>🖊️ DJ from Brooklyn supports this.</p>
+        <p>🖊️ Amy from Queens supports this.</p>
+        <p>🖊️ Teresa from Harlem supports this.</p>
+        <p id="counter">🎉 3 people signed this petition and support this cause.</p>
+      </div>
+    </div>
+    <!--Sign petition form-->
+    <div id="petition-form">
+      <form id="sign-petition" title="sign-petition">
+        <!--inputs-->
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+        <label for="hometown">Hometown: </label>
+        <input type="text" id="hometown" name="hometown" required>
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" required>
+      </form>
+      <button id="sign-now-button">Sign Now</button>
+    </div>
+
+  </div>
+
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <!-- text here -->
+        <p id="thanks-modal-content">Thank You!</p>
+        <!-- button here (stretch feature) -->
+      </div>
+      <!-- image here-->
+      <img id="modal-img" src="img/ty.gif" width="200px">
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Learn more on our social media</p>
+    <span>
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    </span>
+    <span>
+      <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+    </span>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
